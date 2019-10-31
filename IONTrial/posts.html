@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>IONTrial</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Add a Post</a>
+                </li>
+                <input id="search" type="search" name="search" placeholder="search..." />
+                <!-- <button class="searches">Search</button> -->
+            </ul>
+        </nav>
+    </header>
+
+    <h1>List of all Posts</h1>
+
+    <button class="getPost">Get Posts</button>
+    <button><a href="index.html">Back</a></button>
+    <br/><br/>
+
+    <div class="newPost">
+        <h3>Add a new Post</h3>
+        <input name="title" placeholder="title" type="text"/><br/><br/>
+        <input name="body" placeholder="body" type="text"/><br/><br/>
+        <input name="author" placeholder="author" type="text"/><br/><br/>
+        <button class="addPost" type="submit">Submit</button><br/><br/>
+    </div>
+
+    <div id="posts">
+        <table>
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
+
+</html>
